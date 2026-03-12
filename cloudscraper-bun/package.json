@@ -1,0 +1,7 @@
+{
+  "name": "cloudscraper-bun",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun run cloudscraper-bun.js"
+  }
+}
