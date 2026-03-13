@@ -1414,5 +1414,6 @@ var port = parseInt(process.env.PORT ?? "8000");
 console.log(`[HDHub4u] 🐰 Bun server running on http://localhost:${port}`);
 Bun.serve({
   port,
+  hostname: "0.0.0.0",
   fetch: handler,
 });
